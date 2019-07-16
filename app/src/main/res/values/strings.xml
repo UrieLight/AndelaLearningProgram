@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">ALC 4 Phase 1</string>
+    <string name="btn_abt_alc">About ALC</string>
+    <string name="btn_my_profile">My Profile</string>
+    <string name="welcome_to_alc">Welcome to ALC 4.0</string>
+    <string name="profile_name">Uriel FEUATSAP</string>
+    <string name="profile_track_name">Track: </string>
+    <string name="profile_description">profile_description</string>
+    <string name="profile_country">Country:</string>
+    <string name="profile_email">Email:</string>
+    <string name="profile_number">Phone Number:</string>
+    <string name="profile_slack_username">Slack Username</string>
+    <string name="profile_track_val">Android</string>
+    <string name="profile_country_val">Cameroun</string>
+    <string name="profile_email_val">urielfeuatsap@gmail.com</string>
+    <string name="profile_phonenumber_val">+237 694925111</string>
+    <string name="profile_slack_username_val">Uriel F</string>
+    <string name="my_profile_title">My Profile</string>
+    <string name="about_alc_title">About ALC</string>
+
+    <string name="profile_mail_icon">mail</string>
+    <string name="profile_country_icon">cameroon</string>
+    <string name="profile_track_icon">android</string>
+    <string name="profile_call_icon">phone_number</string>
+</resources>

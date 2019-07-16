@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button_about_alc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="@string/btn_abt_alc"
+        android:background="@color/colorButtons"
+        app:layout_constraintEnd_toEndOf="@+id/textView_welcome"
+        app:layout_constraintHorizontal_bias="0.543"
+        app:layout_constraintStart_toStartOf="@+id/textView_welcome"
+        app:layout_constraintTop_toBottomOf="@+id/textView_welcome"
+        android:onClick="onClickAboutAlc"
+        tools:text="@string/btn_abt_alc" />
+
+    <Button
+        android:id="@+id/button_my_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/btn_my_profile"
+        android:background="@color/colorButtons"
+        app:layout_constraintEnd_toEndOf="@+id/button_about_alc"
+        app:layout_constraintStart_toStartOf="@+id/button_about_alc"
+        app:layout_constraintTop_toBottomOf="@+id/button_about_alc"
+        android:onClick="onClickMyProfile"
+        tools:text="@string/btn_my_profile" />
+
+    <TextView
+        android:id="@+id/textView_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:text="@string/welcome_to_alc"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
